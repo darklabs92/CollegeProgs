@@ -5,7 +5,9 @@ Created on Wed Oct 14 10:48:19 2015
 @author: aditya
 """
 
+import math
 from lxml import etree
+
 
 # Get all dependencies in the parsed Stanford CoreNLP file
 def get_dep(gen, tok_list):
